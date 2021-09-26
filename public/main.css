@@ -1,0 +1,54 @@
+
+
+.active{
+    background-color: red;
+    
+
+}
+body{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.header a{
+text-decoration: none;
+}
+.form button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.form div{
+    display: flex;
+    justify-content: space-between;
+margin-bottom: 1rem;}
+
+/* LIST OF PRODUCTS*/
+div.products-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div.product-list{
+    width: 75%;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+}
+.photos{
+width: 50%;
+}
+div.remove{
+    background-color: rgb(92, 80, 80);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    border-radius: 2rem;
+}
