@@ -3,7 +3,7 @@ const User = require('../models/user');
 const bcrypt = require('bcryptjs')
 
 const sgMail = require('@sendgrid/mail')
-sgMail.setApiKey('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');
+sgMail.setApiKey('');
 
 const { validationResult } = require('express-validator/check')
 
